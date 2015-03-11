@@ -12,6 +12,8 @@ INPUT_10 = 1024
 
 INPUT_NULL = 0
 
+MODE = "MENU"
+
 meX = 0
 meY = 0
 canShoot = false
