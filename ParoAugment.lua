@@ -11,7 +11,9 @@ meY = 0
 canShoot = false
 
 function boxSprite(name,position)
-    gui.drawRectangle(position[1],position[2],5,5)
+    gui.drawRectangle(position[1],position[2],5,5,0x70FF90A5)
+end
+
 
 --dudewat no colons this is spooky where's muh python
 function highlightSprites()
