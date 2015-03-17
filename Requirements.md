@@ -4,7 +4,7 @@
 The purpose of this document is to delineate the various requirements that define complete autopilot functionality. For now, I am treating it as a dump for considerations that need addressing in the game, as I find them, and to identify bad assumptions. In this way, requirements can be organized according to their scope, and hopefully drive an efficient, maintainable design.
 
 ###Background
-This design approach is directly inspired by that used for safety-critical flight software, and will adopt several design patterns therefrom.  However, since this application is not safety critical, nor nearly as complex as those used in airplanes, I am making little effort to index these requirements. Rather than exact specifications, this document will hold notional guides for design and implementation.
+This design approach is directly inspired by that used for safety-critical flight software, and will adopt several design patterns therefrom.  However, since this application is not safety critical, nor nearly as complex as those used in airplanes, I am making little effort to index these requirements. Rather than exact specifications, this document will hold notional guides for design and implementation. So it's really more of a "keep in mind" document.
 
 -As the menu is entirely different from the rest of the game and appears only once, at the beginning, the menu navigation procedure is not a control system, and therefore statements about control systems in this document do not apply to it
 
@@ -21,7 +21,7 @@ This design approach is directly inspired by that used for safety-critical fligh
 The Parodius Autopilot (PAP) control laws shall generate 
 
 ##Mode of Operation
-The PAP shall engage modes of operation that determine the appropriate source of commands according to local goals in the game. Examples include navigating the menu, entertainment, and killing either for upgrades or advancement (boss fights).
+The PAP shall engage modes of operation that determine the appropriate source of commands according to local goals in the game. Examples include navigating the menu, entertainment, and killing either for upgrades or advancement (boss fights). Most mode switching will be between entertainment and advancement, so 
 
 ##Powerup Get Mode
 This should kill all enemies on screen and keep track of which enemies drop powerups, and then replay that screen in order to make only necessary kills.
