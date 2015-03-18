@@ -31,3 +31,4 @@ Only needs to perform once, since we will never lose power-ups?
 ##Entertainment Mode
 This should identify and perform opportune stunts such as barnstorming, kissing, spelling, and orbiting to the music.
 Use save states to identify barnstorming targets etc, in order to position self to not miss the opportunity.
+Dancing: Using song data, change direction only when a note changes.
