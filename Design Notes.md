@@ -1,4 +1,4 @@
-#Requirements
+#Design Notes
 
 ##Purpose
 The purpose of this document is to delineate the various requirements that define complete autopilot functionality. For now, I am treating it as a dump for considerations that need addressing in the game, as I find them, and to identify bad assumptions. In this way, requirements can be organized according to their scope, and hopefully drive an efficient, maintainable design.
